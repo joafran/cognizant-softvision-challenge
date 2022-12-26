@@ -2,3 +2,48 @@
   font-size: 24px;
   font-weight: normal;
 }
+
+.btn {
+  width: 100%;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+}
+
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  gap: 24px;
+}
+
+.stepColumn {
+  background: #eee;
+  min-width: 250px;
+  padding: 12px;
+}
+
+.stepColumn h2 {
+  margin-bottom: 20px;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.card {
+  background: white;
+  width: 100%;
+  padding: 10px;
+}
+
+.cardEmpty {
+  color: gray;
+}
